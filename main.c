@@ -26,7 +26,8 @@ int n;
 
 if( i == 1)
 {
-    PlaySound(TEXT("music.wav"), NULL, SND_ASYNC); }
+    /* Ajouter une musique de dÃ©marrage*/
+    /*PlaySound(TEXT("music.wav"), NULL, SND_ASYNC); */}
 printf("\n");
 printf("\n");
 printf("\n");
@@ -255,7 +256,7 @@ printf("\t\t\t\t\t\t\t\t*       "); Color(14,0);
 printf("1");
 printf(" >");Color(4,0);
 printf("     |");Color(3,0);
-printf("           Niveau Débutant");Color(4,0);
+printf("           Niveau DÃ©butant");Color(4,0);
 printf("                       *\n");
 //2eme ligne
 printf("\t\t\t\t\t\t\t\t*       "); Color(14,0);
@@ -436,27 +437,27 @@ printf("\t\t\t\t\t\t\t\t+-------------------------------------------------------
 printf("\t\t\t\t\t\t\t\t+-------------------------------------------------------------------------+\n");
 printf("\t\t\t\t\t\t\t\t*                                                                         *\n");
 printf("\t\t\t\t\t\t\t\t*                                                                         *\n");
-printf("\t\t\t\t\t\t\t\t* Au début de la partie, le goban est vide.Pour une partie à handicap,      *\n");
+printf("\t\t\t\t\t\t\t\t* Au dÃ©but de la partie, le goban est vide.Pour une partie Ã  handicap,      *\n");
 printf("\t\t\t\t\t\t\t\t* le premier tour de Noir consiste en la pose des pierres de handicap.    *\n");
-printf("\t\t\t\t\t\t\t\t* Les joueurs déposent alternativement une pierre de leur couleur sur      *\n");
+printf("\t\t\t\t\t\t\t\t* Les joueurs dÃ©posent alternativement une pierre de leur couleur sur      *\n");
 printf("\t\t\t\t\t\t\t\t* Une intersection libre du goban y compris les intersections qui se      *\n");
-printf("\t\t\t\t\t\t\t\t* trouvent au bord du goban et retirent éventuellement les pierres qu      *\n");
-printf("\t\t\t\t\t\t\t\t* ils viennent de capturer, Une fois placée sur le goban,il n'est plus     *\n");
-printf("\t\t\t\t\t\t\t\t* il n'est plus autorisé de déplacer une pierre. Un joueur peut aussi       *\n");
-printf("\t\t\t\t\t\t\t\t* passer son tour ou abandonner.Une pierre isolée ou plus généralement       *\n");
-printf("\t\t\t\t\t\t\t\t* une chaine qui ne possède plus qu'une seule liberté est dite en atari     *\n");
-printf("\t\t\t\t\t\t\t\t* si la chaîne perd cette dernière liberté, elle est capturée.elle est        *\n");
-printf("\t\t\t\t\t\t\t\t* capturée. La chaine complète est retirée du goban et ajoutée au tas         *\n");
-printf("\t\t\t\t\t\t\t\t* de prisonniers du joueur adverse.Si aucun des joueurs n'a abandonné,     *\n");
-printf("\t\t\t\t\t\t\t\t* lapartie se termine après queles deux joueurs ontpassé consécutivement     *\n");
-printf("\t\t\t\t\t\t\t\t* On comptabilise alors les points de chacun. Celui qui possède le plus    *\n");
-printf("\t\t\t\t\t\t\t\t* de points gagne.Les pierres mortes sont alors retirées comme si elles    *\n");
-printf("\t\t\t\t\t\t\t\t* avaient été capturées.La règle stipule que les disputes sur le statut       *\n");
-printf("\t\t\t\t\t\t\t\t* vivant ou mort des groupes peuvent être résolues en continuantà jouer      *\n");
-printf("\t\t\t\t\t\t\t\t* jusqu'à ce que les joueurs tombent d'accord. Les règles japonaise sont    *\n");
-printf("\t\t\t\t\t\t\t\t* ainsi une longue liste de précédents dans des parties de tournoi, mais    *\n");
-printf("\t\t\t\t\t\t\t\t* cela reste anecdotique pour la plupart des joueurs.Après l'élimination    *\n");
-printf("\t\t\t\t\t\t\t\t* des pierres mortes,on compte les points afin de déterminer le gagnant,   *\n");
+printf("\t\t\t\t\t\t\t\t* trouvent au bord du goban et retirent Ã©ventuellement les pierres qu      *\n");
+printf("\t\t\t\t\t\t\t\t* ils viennent de capturer, Une fois placÃ©e sur le goban,il n'est plus     *\n");
+printf("\t\t\t\t\t\t\t\t* il n'est plus autorisÃ© de dÃ©placer une pierre. Un joueur peut aussi       *\n");
+printf("\t\t\t\t\t\t\t\t* passer son tour ou abandonner.Une pierre isolÃ©e ou plus gÃ©nÃ©ralement       *\n");
+printf("\t\t\t\t\t\t\t\t* une chaine qui ne possÃ¨de plus qu'une seule libertÃ© est dite en atari     *\n");
+printf("\t\t\t\t\t\t\t\t* si la chaÃ®ne perd cette derniÃ¨re libertÃ©, elle est capturÃ©e.elle est        *\n");
+printf("\t\t\t\t\t\t\t\t* capturÃ©e. La chaine complÃ¨te est retirÃ©e du goban et ajoutÃ©e au tas         *\n");
+printf("\t\t\t\t\t\t\t\t* de prisonniers du joueur adverse.Si aucun des joueurs n'a abandonnÃ©,     *\n");
+printf("\t\t\t\t\t\t\t\t* lapartie se termine aprÃ¨s queles deux joueurs ontpassÃ© consÃ©cutivement     *\n");
+printf("\t\t\t\t\t\t\t\t* On comptabilise alors les points de chacun. Celui qui possÃ¨de le plus    *\n");
+printf("\t\t\t\t\t\t\t\t* de points gagne.Les pierres mortes sont alors retirÃ©es comme si elles    *\n");
+printf("\t\t\t\t\t\t\t\t* avaient Ã©tÃ© capturÃ©es.La rÃ¨gle stipule que les disputes sur le statut       *\n");
+printf("\t\t\t\t\t\t\t\t* vivant ou mort des groupes peuvent Ãªtre rÃ©solues en continuantÃ  jouer      *\n");
+printf("\t\t\t\t\t\t\t\t* jusqu'Ã  ce que les joueurs tombent d'accord. Les rÃ¨gles japonaise sont    *\n");
+printf("\t\t\t\t\t\t\t\t* ainsi une longue liste de prÃ©cÃ©dents dans des parties de tournoi, mais    *\n");
+printf("\t\t\t\t\t\t\t\t* cela reste anecdotique pour la plupart des joueurs.AprÃ¨s l'Ã©limination    *\n");
+printf("\t\t\t\t\t\t\t\t* des pierres mortes,on compte les points afin de dÃ©terminer le gagnant,   *\n");
 printf("\t\t\t\t\t\t\t\t*                                                                         *\n");
 printf("\t\t\t\t\t\t\t\t*                                                                         *\n");
 printf("\t\t\t\t\t\t\t\t*       "); Color(14,0);
