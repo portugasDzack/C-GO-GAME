@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jeugo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="projetInitial\jeugo\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jeugo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jeugo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="1v1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1vAifacile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1vsAi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1vsAiExpert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1vsAiMoyen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="1vsAidifficle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Problems.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="capturation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fctssupp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="grille.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loadgame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

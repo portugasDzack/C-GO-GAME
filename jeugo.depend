@@ -1,0 +1,210 @@
+# depslib dependency file v1.0
+1547078173 source:c:\users\apollo\desktop\projet2\jeugo\grille.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1547082502 source:c:\users\apollo\desktop\projet2\jeugo\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1547082529 source:c:\users\apollo\desktop\projet2\jeugo\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1547082502 source:c:\users\apollo\desktop\projet2\jeugo\problems.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1547904520 source:c:\users\apollo\desktop\projetinitial\jeugo\grille.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548076428 source:c:\users\apollo\desktop\projetinitial\jeugo\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1547289824 source:c:\users\apollo\desktop\projetinitial\jeugo\problems.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1547929964 source:c:\users\apollo\desktop\projetinitial\jeugo\capturation.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1548076878 source:c:\users\apollo\desktop\projetinitial\jeugo\1v1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1547914790 source:c:\users\apollo\desktop\projetinitial\jeugo\1vsai.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1547929964 source:c:\users\apollo\desktop\projetinitial\jeugo\fctssupp.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548076506 source:c:\users\apollo\desktop\projetinitial\jeugo\header.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548851825 source:c:\users\apollo\desktop\jeugo\1v1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548795570 source:c:\users\apollo\desktop\jeugo\capturation.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1548348847 source:c:\users\apollo\desktop\jeugo\grille.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548795570 source:c:\users\apollo\desktop\jeugo\header.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548335870 source:c:\users\apollo\desktop\jeugo\problems.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548795570 source:c:\users\apollo\desktop\jeugo\1vsai.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548853682 source:c:\users\apollo\desktop\jeugo\fctssupp.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<dirent.h>
+
+1548706584 source:c:\users\apollo\desktop\jeugo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548795726 source:c:\users\apollo\desktop\jeugo\1vaifacile.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548855216 source:c:\users\apollo\desktop\jeugo\1vsaimoyen.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548800307 source:c:\users\apollo\desktop\jeugo\1vsaidifficle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548851825 source:c:\users\apollo\desktop\jeugo\1vsaiexpert.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548799950 source:c:\users\apollo\desktop\jeugo\loadgame.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548529269 source:c:\users\apollo\desktop\jeugo\test.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548851826 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\1v1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548795728 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\1vaifacile.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548795572 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\1vsai.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548800308 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\1vsaidifficle.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548851826 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\1vsaiexpert.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548855218 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\1vsaimoyen.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548795572 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\capturation.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
+1548853684 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\fctssupp.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<dirent.h>
+
+1548348848 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\grille.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548795572 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\header.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+
+1548799952 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\loadgame.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1548529270 source:c:\users\apollo\desktop\2018_projetc_sig_khalil zakaria_rami rachid\jeugo\test.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
